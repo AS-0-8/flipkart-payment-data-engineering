@@ -1,0 +1,20 @@
+{
+  "Comment": "Flipkart Payment ETL Pipeline",
+
+  "StartAt": "Validate Event",
+
+  "States": {
+
+    "Validate Event": {
+
+      "Type": "Pass",
+
+      "Result": "Event Validated",
+
+      "End": true
+
+    }
+
+  }
+
+}
